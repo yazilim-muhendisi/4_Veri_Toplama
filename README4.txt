@@ -1,6 +1,7 @@
 # 4_veri_toplama
 
-.Net platformu ORM(Object Relational Mapping) araçlarından birisidir. ORM (Object Relational Mapping) ise veritabanı ile nesneye yönelik programlama (OOP) arasındaki ilişkiyi kuran teknolojidir. 
+.Net platformu ORM(Object Relational Mapping) araçlarından birisidir. 
+ORM (Object Relational Mapping) ise veritabanı ile nesneye yönelik programlama (OOP) arasındaki ilişkiyi kuran teknolojidir. 
 Yani Entity Framework, nesne tabanlı programlamada veri tabanındaki tablolara uygun nesneler oluşturma tekniğidir.
 
 Entity Framework ile 4 farklı yöntem ile proje geliştirilebilir. Bu yöntemler;
@@ -24,7 +25,9 @@ Kullanıcı Verileri aşağıda verilen yöntemler ile veri tabanında toplanır
 Her eklenilen kaynak verileri ayrı ayrı veri tabanında tutulur. 
 
 
-* Etkinlik alanı İçerik Ekle Butonu: Bu buton ise üyelerin etkinliği oluşturacağı başlık, açıklama, etkinlik broşürü, konum ve tarih bilgilerini içerir. Her eklenilen etkinlik verisi veri tabanında tutulur. 
+* Etkinlik alanı İçerik Ekle Butonu: Bu buton ise üyelerin etkinliği oluşturacağı başlık, açıklama, etkinlik broşürü, konum ve tarih bilgilerini içerir. 
+Her eklenilen etkinlik verisi veri tabanında tutulur. 
 
-Sistem üzerinde gün geçtikçe artacak olan bu kaynaklar için Microsoft Azure Cloud Teknolojisi kullanılacaktır. .NET CORE özelliği ile çoklu platformda çalıştırılacaktır.
+Sistem üzerinde gün geçtikçe artacak olan bu kaynaklar için Microsoft Azure Cloud Teknolojisi kullanılacaktır. 
+NET CORE özelliği ile çoklu platformda çalıştırılacaktır.
 
