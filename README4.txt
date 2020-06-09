@@ -1,4 +1,3 @@
-# 4_veri_toplama
 
 .Net platformu ORM(Object Relational Mapping) araçlarından birisidir. 
 ORM (Object Relational Mapping) ise veritabanı ile nesneye yönelik programlama (OOP) arasındaki ilişkiyi kuran teknolojidir. 
@@ -19,15 +18,17 @@ Daha sonra veri tabanı bu class’lardan türetilir. Biz projemizde Code First 
 
 Kullanıcı Verileri aşağıda verilen yöntemler ile veri tabanında toplanır.
 
-* Kayıt Ol Alanı: Kullanıcı Sistem üzerindeki kısıtlamalardan kurtulmak için kayıt olarak bilgileri veri tabanına kaydedilir.
+- Giriş Yap Alanı: Üye hatalı giriş yapması durumunda bilgileri veri tabanına kaydedilir.
 
-* Üniversite alanı İçerik Ekle Butonu: Bu buton sayesinde üyeler belirledikleri kategoride kaynak eklerler. 
+- Şifremi Unuttum Butonu: Kullanıcının şifresi unutması halinde, şifre yenileme e-postası gönderilir 
+ve yeni şifre eski şifresinin bulunduğu alan üzerine güncelleme yapılır.
+
+- Kayıt Ol Alanı: Kullanıcı Sistem üzerindeki kısıtlamalardan kurtulmak için kayıt olarak bilgileri veri tabanına kaydedilir.
+
+- Üniversite alanı İçerik Ekle Butonu: Bu buton sayesinde üyeler belirledikleri kategoride kaynak eklerler. 
 Her eklenilen kaynak verileri ayrı ayrı veri tabanında tutulur. 
 
-
-* Etkinlik alanı İçerik Ekle Butonu: Bu buton ise üyelerin etkinliği oluşturacağı başlık, açıklama, etkinlik broşürü, konum ve tarih bilgilerini içerir. 
+- Etkinlik alanı İçerik Ekle Butonu: Bu buton ise üyelerin etkinliği oluşturacağı başlık, açıklama, etkinlik broşürü, konum ve tarih bilgilerini içerir. 
 Her eklenilen etkinlik verisi veri tabanında tutulur. 
 
-Sistem üzerinde gün geçtikçe artacak olan bu kaynaklar için Microsoft Azure Cloud Teknolojisi kullanılacaktır. 
-NET CORE özelliği ile çoklu platformda çalıştırılacaktır.
-
+- Kaynakların içerisinde bulunan Paylaş Butonu: Üyeler yorum yaptılarında bu yorumlar (varsa etiketlediği kişiler) veri tabanına kaydedilir.
