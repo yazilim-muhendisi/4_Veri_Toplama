@@ -25,7 +25,7 @@ ve yeni şifre eski şifresinin bulunduğu alan üzerine güncelleme yapılır.
 
 - Kayıt Ol Alanı: Kullanıcı Sistem üzerindeki kısıtlamalardan kurtulmak için kayıt olarak bilgileri veri tabanına kaydedilir.
 
-- Üniversite alanı İçerik Ekle Butonu: Bu buton sayesinde üyeler belirledikleri kategoride kaynak eklerler. 
+- Üniversite alanı İçerik Ekle Butonları: Bu buton sayesinde üyeler belirledikleri kategoride kaynak eklerler. 
 Her eklenilen kaynak verileri ayrı ayrı veri tabanında tutulur. 
 
 - Etkinlik alanı İçerik Ekle Butonu: Bu buton ise üyelerin etkinliği oluşturacağı başlık, açıklama, etkinlik broşürü, konum ve tarih bilgilerini içerir. 
